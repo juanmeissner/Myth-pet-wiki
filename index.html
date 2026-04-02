@@ -1214,8 +1214,8 @@
   function getPetImagePath(name){
   return `images/${name
     .normalize("NFD")                // remove acentos
-    .replace(/[\u0300-\u036f]/g, "") // remove acentos (continua��o)
-    .replace(/\s+/g, "_")            // espa�o ? _
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos (continua��o)
+    .replace(/\s+/g, "_")            // espa�o ? _
     .toLowerCase()                   // opcional (recomendado)
   }.png`;
 }
@@ -1894,7 +1894,7 @@ if(imgD){
       "earth attribute attack":"Ataque elemental de TERRA (dano com atributo Terra).",
       "fire attribute attack":"Ataque elemental de FOGO (dano com atributo Fogo).",
       "wind attribute attack":"Ataque elemental de VENTO (dano com atributo Vento).",
-      "water attribute attack":"Ataque elemental de ÝGUA (dano com atributo Ýgua).",
+      "water attribute attack":"Ataque elemental de ÁGUA (dano com atributo ÁGUA).",
       "poison attribute attack":"Ataque elemental de VENENO (dano com atributo Veneno).",
       "shadow attribute attack":"Ataque elemental de SOMBRA (dano com atributo Sombrio)."
     };
@@ -1924,18 +1924,18 @@ if(imgD){
       "blessing":"Buff: aumenta atributos e remove Maldição/Petrificação." ,
       "blitz beat":"Ataque do falcão: dano à distância em área (3x3) no alvo." ,
       "bloodlust":"Buff: aumenta ATK e pode roubar HP ao atacar (lifesteal)." ,
-      "catnip powdering":"Ýrea: reduz ATK/MATK e velocidade de movimento dos inimigos." ,
+      "catnip powdering":"Área: reduz ATK/MATK e velocidade de movimento dos inimigos." ,
       "change":"Muda o estado/modo do usuário (efeito pode variar por servidor)." ,
       "circle of fire":"Aura reativa: causa dano de Fogo em área (3x3) ao ser atingido e empurra." ,
-      "cold bolt":"Projéteis de gelo: dano mágico de Ýgua em 1 alvo." ,
+      "cold bolt":"Projéteis de gelo: dano mágico de ÁGUA em 1 alvo." ,
       "dashing bash":"Avança (dash) e causa dano físico." ,
       "decrease agility":"Debuff: reduz AGI e velocidade de movimento." ,
       "defense":"Buff defensivo: aumenta DEF / reduz dano físico recebido." ,
       "defense disregard attack":"Ataque que ignora parte da DEF do alvo." ,
       "defender":"Postura: reduz dano recebido de ataques à distância." ,
-      "deluge":"Ýrea: aumenta dano de Ýgua e aumenta HP máximo dentro da área." ,
+      "deluge":"Área: aumenta dano de ÁGUA e aumenta HP máximo dentro da área." ,
       "demon shock attack":"Dano físico baseado no MATK do usuário." ,
-      "dragon fear":"Ýrea: pode causar Stun, Maldição, Silêncio ou Sangramento." ,
+      "dragon fear":"Área: pode causar Stun, Maldição, Silêncio ou Sangramento." ,
       "earth charm":"Buff: aumenta dano físico contra alvos de Vento." ,
       "earth drive":"Dano físico corpo a corpo em área ao redor." ,
       "earth shaker":"Onda de choque no chão: dano em área." ,
@@ -1949,8 +1949,8 @@ if(imgD){
       "fire bomb":"Explosão de Fogo em área (3x3) no alvo." ,
       "fire bolt":"Projéteis de fogo: dano mágico de Fogo em 1 alvo." ,
       "fleeting move":"Buff: aumenta ATQ e ASPD temporariamente." ,
-      "frost misty":"Dano mágico de Ýgua em área." ,
-      "frost nova":"Espinhos de gelo ao redor: dano mágico de Ýgua em área." ,
+      "frost misty":"Dano mágico de ÁGUA em área." ,
+      "frost nova":"Espinhos de gelo ao redor: dano mágico de ÁGUA em área." ,
       "gentle touch - revitalize":"Buff: aumenta HP máximo e DEF física; melhora regen de HP." ,
       "giant growth":"Buff: +FOR e mais dano físico; ataques básicos ficam muito mais fortes." ,
       "gloria":"Buff em área: aumenta LUK." ,
@@ -2000,17 +2000,17 @@ if(imgD){
       "spider web":"Teia: imobiliza o alvo por alguns segundos." ,
       "sprinkle sand":"Joga areia: dano de Terra e chance de Cegueira." ,
       "stasis":"Campo que impede conjuração de habilidades ao redor." ,
-      "stealth field":"Ýrea de camuflagem: impede ser alvo; drena SP e reduz movimento enquanto ativa." ,
+      "stealth field":"Área de camuflagem: impede ser alvo; drena SP e reduz movimento enquanto ativa." ,
       "stone skin":"Reduz dano físico por instantes, mas reduz MDEF no período." ,
       "stoop":"Buff curto: reduz dano recebido drasticamente por alguns segundos." ,
-      "storm gust":"Nevasca: dano mágico de Ýgua em área; chance de Congelamento; empurra." ,
+      "storm gust":"Nevasca: dano mágico de ÁGUA em área; chance de Congelamento; empurra." ,
       "stun attack":"Ataque físico com chance de Stun." ,
       "symphony of lover":"Buff em área: aumenta DEFM e resistência a Fantasma/Sagrado." ,
       "typhoon missle":"Projétil de Vento em área (3x3) a distância (dano físico)." ,
       "venom impress":"Debuff: aumenta o dano recebido de propriedade Veneno." ,
-      "volcano":"Ýrea: aumenta dano de Fogo e aumenta ATQ/ATQM dentro da área." ,
+      "volcano":"Área: aumenta dano de Fogo e aumenta ATQ/ATQM dentro da área." ,
       "water ball":"Esferas d’água rápidas em 1 alvo; precisa de água rasa." ,
-      "water barrier":"Barreira de Ýgua (3x3): reduz dano recebido dentro da área." ,
+      "water barrier":"Barreira de ÁGUA (3x3): reduz dano recebido dentro da área." ,
       "warg bite":"Investida: dano e chance de imobilizar temporariamente." ,
       "weapon strip":"Em PvM: reduz ATK do monstro por um tempo (ou strip, dependendo da regra)." ,
       "wind cutter":"Corte de vento: dano em área ao redor." ,
